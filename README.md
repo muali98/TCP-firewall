@@ -3,4 +3,4 @@ The firewall works by setting up a TCP server on the Zynq Processor, which recei
 
 The payload is transferred between the two processors using a mailbox and the length of the payload is communicated using BRAM (both payload and length can be transferred either using mailbox or BRAM but for testing purposes, both mailbox and BRAM were used). The server on Zynq Processor also stores TCP payloads in DDR memory, to keep the history of all the received packets, ensuring no overwrites.
 
-<img width="1275" alt="image" src="https://github.com/user-attachments/assets/203e19f4-3d8f-4757-a36f-d0702f7c4aca">
+<img width="1702" alt="image" src="https://github.com/user-attachments/assets/08d36b57-8f5a-45dc-aacc-1dfe65d58ae5">
